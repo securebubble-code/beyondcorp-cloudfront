@@ -64,7 +64,7 @@ module "lambda_at_edge" {
   client_secret   = aws_cognito_user_pool_client.client.client_secret
   ui_subdomain    = aws_cognito_user_pool_domain.domain.domain
   scopes          = aws_cognito_user_pool_client.client.allowed_oauth_scopes
-  userpool_region = "eu-west-1"
+  userpool_region = "us-east-1"
 }
 ```
 
